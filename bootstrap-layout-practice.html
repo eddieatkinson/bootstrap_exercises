@@ -6,24 +6,28 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 		<style type="text/css" media="screen">
-			/*{
+			.blue{
 				background-color: #9FC5F8;
+				border: 6px solid #FFF;
 			}
-			.box{
+			.well{
 				background-color: #CFE2FB;
-				/*margin: 5px;
+				border: 4px solid #9FC5F8;
+			}
+				/*background-color: #CFE2FB;*/
+				/*margin: 5px;*/
 			.ad{
 				background-color: #6FA8DC;
+				height: 100%
+			}
 			
-			
-			*/
 
 		</style>
 </head>
 <body>
 	<div class="container-fluid">
 		<!-- 1. Header -->
-		<div class="row col-md-12">
+		<div class="row blue">
 			<h2>1. Header</h2>
 			<div class="well col-sm-2 text-center">
 			<!-- 	<div class="box"> -->
@@ -42,7 +46,7 @@
 			</div>
 		</div>
 		<!-- 2. Hero -->
-		<div class="row">
+		<div class="row blue">
 			<div class="col-md-9">
 				<h2>2. Hero</h2>
 				<div class="well col-md-8 text-center hidden-xs">
@@ -58,12 +62,12 @@
 			</div>
 			<!-- 3. Ad -->
 			<!-- <div class="row"> -->
-				<div class="well col-sm-3 hidden-sm hidden-xs">
+				<div class="well col-sm-3 hidden-sm hidden-xs ad">
 					<h2 class>3. Ad</h2>
 				</div>
 			<!-- </div> -->
 		</div>
-		<div class="row">
+		<div class="row blue">
 			<!-- 4. Body -->
 			<div class="col-md-9">
 				<h2>4. Body</h2>
@@ -73,7 +77,7 @@
 					<!-- </div> -->
 				</div>
 				<!-- Hidden ad -->
-				<div class="well col-sm-3 hidden-lg hidden-md">
+				<div class="well col-sm-3 hidden-lg hidden-md ad">
 					<h2 class>3. Ad</h2>
 				</div>
 
@@ -84,7 +88,7 @@
 				</div>
 			</div>
 			<!-- 5. Sidebar -->
-			<div class="col-md-3 hidden-sm hidden-xs">
+			<div class="col-md-3 hidden-sm hidden-xs blue">
 				<h2>5. Sidebar</h2>
 				<div class="well">
 					5.1 Sidebar Feature
@@ -97,7 +101,7 @@
 				5.1 Sidebar
 			</div>
 		</div>
-		<div class="col-md-12">
+		<div class="row blue">
 			<h2>6. Footer</h2>
 		</div>
 
