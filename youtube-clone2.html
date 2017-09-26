@@ -2,10 +2,205 @@
 <html>
 <head>
 	<title>YouTube Clone pg. 2</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<style type="text/css" media="screen">
+		.left-border{
+			border-left: 1px solid #000;
+		}
+		.s-field{
+			margin-top: 20px;
+		}
+		.padded{
+			padding-bottom: 40px;
+		}
+		.top-border{
+			border-top: 1px solid #000;
+			margin-top: 5px;
+			padding-top: 30px;
+		}
+		.other-videos > div{
+			margin: 10px 0 50px 0;
+		}
+		.other-videos{
+			padding-left: 0;
+		}
+		.eddie{
+			border: 1px solid black;
+			padding: 10px;
+		}
+		.profile-text{
+			font-size: 11px;
+		}
+		.profile-long{
+			padding: 10px;
+		}
+		.profile-margin{
+			margin-top: 11px;
+		}
+		.related{
+			margin: 10px 0 10px 0;
+		}
+
+
+	</style>
 </head>
 <body>
-Hello!
+	<div class="container">
+		<div class="row s-field">
+			<div class="col-xs-3">
+				<a href="https://www.youtube.com"><img src="youtube-logo.png" width=50% /></a>
+			</div>
+			<div class="col-xs-6">
+				<div class="row form-group text-center">
+					<div class="col-xs-9 s-field">
+						<input type="text" style="width: 80%" />
+					</div>
+					<div class="col-xs-3 form-group s-field">
+						<button class="btn btn-default">Search</button>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-xs-3">
+						<a href="#">Home</a>
+					</div>
+					<div class="left-border col-xs-3">
+						<a href="#">Videos</a>
+					</div>
+					<div class="left-border col-xs-3">
+						<a href="#"> Channels</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-3 s-field">
+				<div class="row padded">
+					<div class="text-right">
+						<a href="#">Create Account</a> or <a href="#">Sign-In</a>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-xs-4">
+						<a href="#">Subscriptions</a>
+					</div>
+					<div class="col-xs-4">
+						<a href="#">History</a>
+					</div>
+					<div class="col-xs-4">
+						<a href="#">Upload</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="row">
+				<h2>Video Title</h2>
+			</div>
+			<div class="row">
+				<div class="col-xs-8">
+					<div class="row">
+						<div class="col-xs-12">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/FHH6hIc2GyE" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-2">
+							Share
+						</div>
+						<div class="col-xs-2">
+							Favorite
+						</div>
+						<div class="col-xs-2">
+							Flag
+						</div>
+						<div class="col-xs-2 pull-right">
+							232,222 Views
+						</div>
+					</div>
+					<div class="row">
+						<h4>Comments</h4>
+					</div>
+					<div class="row">
+						<a href="#">User 1</a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="row">
+						<a href="#">User 2</a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="eddie">
+						<div class="row">
+							<div class="col-xs-2 profile-margin">
+								<img src="fox.png" width="100%">
+							</div>
+							<div class="col-xs-6 profile-text">
+								<h4>Profile</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+							<div class="col-xs-4">
+								<button class="btn profile-margin">Subscribe</button>
+							</div>
+						</div>
+						<div class="row profile-long">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+					<div class="row">
+						<h3>Related Videos</h3>
+					</div>
+					<div class="row related">
+						<div class="col-xs-2">
+							<img src="cat4.jpg" width="100%" />
+						</div>
+						<div class="col-xs-10">
+							<h5>Related Video...</h5>
+						</div>
+					</div>
+					<div class="row related">
+						<div class="col-xs-2">
+							<img src="cat5.jpg" width="100%" />
+						</div>
+						<div class="col-xs-10">
+							<h5>Related Video...</h5>
+						</div>
+					</div>
+					<div class="row related">
+						<div class="col-xs-2">
+							<img src="cat6.jpg" width="100%" />
+						</div>
+						<div class="col-xs-10">
+							<h5>Related Video...</h5>
+						</div>
+					</div>
+					<div class="row related">
+						<div class="col-xs-2">
+							<img src="cat7.jpg" width="100%" />
+						</div>
+						<div class="col-xs-10">
+							<h5>Related Video...</h5>
+						</div>
+					</div>
+					
+				</div>
+	</div>
+</body>
 
 
 </body>
 </html>
+
